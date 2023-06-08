@@ -1,0 +1,41 @@
+.footer {
+  background-image: url(./../images/pexels-codioful-\(formerly-gradienta\)-7130555.jpg);
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img-footer {
+  width: 600px;
+  height: 400px;
+}
+
+.footer-content {
+  margin-top: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3);
+  text-align: center;
+  
+  
+}
+
+.footer-content div {
+ font-size: 40px;
+ font-weight: bolder;
+  
+}
+
+.footer-content p {
+  color: black;
+  
+}
+
+.wave-footer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
